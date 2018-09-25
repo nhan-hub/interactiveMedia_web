@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<HTML>
+	
+<HEAD>
+	<STYLE>
+	div{
+		position:absolute;
+	}
+	.face{
+		width:200px;
+		height:200px;
+		background:black;
+		border-radius: 50%;
+		top:52px;
+		left:41px;
+	}
+	.faceOutline{
+		width:210px;
+		height:210px;
+		background:white;
+		border-radius: 50%;
+		top:47px;
+		left:36px;
+	}
+	.faceEdge{
+		width:230px;
+		height:230px;
+		background:black;
+		border-radius: 50%;
+		top:38px;
+		left:36px;
+	}
+	/* HANDS */
+	.minuteHand{
+		width:6px;
+		height:80px;
+		background:white;
+		top:70px;
+		left:138px;
+		transform-origin: 50% 100%;
+		transform:rotate(335deg);
+	}
+	.hourHand{
+		width:6px;
+		height:50px;
+		background:white;
+		top:102px;
+		left:140px;
+		transform-origin: 50% 100%;
+		transform:rotate(90deg);
+	}
+	/*TIME  */
+	.time{
+		width:3px;
+		height:25px;
+		background:white;
+		transform-origin: 50% 350%;
+		left:140px;
+		top:65px;
+	}
+	#oneOclock{
+		transform:rotate(30deg);
+	}
+	#twoOclock{
+		transform:rotate(60deg);
+	}
+	#threeOclock{
+		transform:rotate(90deg);
+	}
+	#fourOclock{
+		transform:rotate(120deg);
+	}
+	#fiveOclock{
+		transform:rotate(150deg);
+	}
+	#sixOclock{
+		transform:rotate(180deg);
+	}
+	#sevenOclock{
+		transform:rotate(210deg);
+	}
+	#eightOclock{
+		transform:rotate(240deg);
+	}
+	#nineOclock{
+		transform:rotate(270deg);
+	}
+	#tenOclock{
+		transform:rotate(300deg);
+	}
+	#elevenOclock{
+		transform:rotate(330deg);
+	}
+	/*PIN*/
+	#pin{
+		width:20px;
+		height:20px;
+		border-radius:50%;
+		background:white;
+		top:142px;
+		left:132px;
+	}
+	#pinNeg{
+		width:10px;
+		height:10px;
+		border-radius:50%;
+		background:black;
+		top:147px;
+		left:137px;
+	}
+	</STYLE>
+</HEAD> 
+<BODY>
+	<!-- CLOCK BODY -->
+	<div class="faceEdge"></div>
+	<div class="faceOutline"></div>
+	<div class="face"></div>
+	<!-- HANDS -->
+	<div class="minuteHand"></div>
+	<div class="hourHand"></div>
+	<!-- TIME   -->
+	<div class="time" id="twelveOclock"></div>
+	<div class="time" id="oneOclock"></div>
+	<div class="time" id="twoOclock"></div>
+	<div class="time" id="threeOclock"></div>
+	<div class="time" id="fourOclock"></div>
+	<div class="time" id="fiveOclock"></div>
+	<div class="time" id="sixOclock"></div>
+	<div class="time" id="sevenOclock"></div>
+	<div class="time" id="eightOclock"></div>
+	<div class="time" id="nineOclock"></div>
+	<div class="time" id="tenOclock"></div>
+	<div class="time" id="elevenOclock"></div>
+	<!-- PIN -->
+	<div id="pin"></div>
+	<div id="pinNeg"></div>
+
+</BODY>
+</HTML>
