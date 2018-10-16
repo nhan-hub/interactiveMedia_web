@@ -29,6 +29,7 @@ background-color: #383F51;
 height:79vh;
 padding-left: 2%;
 z-index:  2;
+position: relative;
 }
 
 .eventpage{
@@ -44,7 +45,6 @@ z-index:  2;
 	font-weight: bold;
 	font-kerning: auto;
 	font-size: 5rem;
-	padding-top: 16%;
 	color: #DFDFDF;
 
 }
@@ -91,8 +91,8 @@ z-index:  2;
 	font-family: 'Oswald', sans-serif;
 	float:left;
 	text-align: justify;
-	background-color: red;
-}
+/*	background-color: red;
+*/}
 .event-title{
 	float:left;
 	width:70%;
@@ -100,8 +100,8 @@ z-index:  2;
 	font-weight: bold;
 	font-family: 'Oswald', sans-serif;
 
-	background-color: yellow;
-}
+/*	background-color: yellow;
+*/}
 .eventname{
 	position: absolute;
 	width: 100%;
