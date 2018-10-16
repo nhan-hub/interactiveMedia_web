@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Notable|Oswald');
+body{
+	color:red;
+	font-family:'Notable',sans-serif;
+	text-align:justify;
+}
+h1{
+	position:fixed;
+	color:blue;
+	z-index:-1;
+}
+
+p{
+ 	font-family:'Oswald',sans-serif;
+ 	color:black;
+ 	font-size: 1.2rem;
+ 	padding-left: 200px;
+ 	padding-right:200px;
+}
+@font-face {
+    font-family: Notable;
+    src: url(googleapis.com/css?family=Notable);
+}
