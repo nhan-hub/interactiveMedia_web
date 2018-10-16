@@ -46,7 +46,7 @@ position: relative;
 	font-kerning: auto;
 	font-size: 5rem;
 	color: #DFDFDF;
-
+	padding-top:1%;
 }
 .series-title{
 	font-family: 'Oswald', sans-serif;
