@@ -1,0 +1,31 @@
+body{
+	background-color: #020002;
+	color: white;
+}
+
+.circle{
+	margin: auto;
+	width:50px;
+	height:50px;
+	position:fixed;
+	border-radius: 50%;
+	animation: mymove 5s infinite;
+	transform:translate(-50%,-50%)
+}
+
+@keyframes mymove {
+    0% {background-color: #f911f6;}
+    50% {background-color: #2de6ff;}
+    100% {background-color: #f911f6;}
+}
+
+.text{
+	font-size: 2.5rem;
+}
+
+#bottom{
+	position: absolute;
+	bottom: 0;
+	right:10px;
+
+}
