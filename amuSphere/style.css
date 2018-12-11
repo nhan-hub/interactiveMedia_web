@@ -1,0 +1,71 @@
+
+html{
+	scroll-behavior: smooth;
+	cursor: none;
+
+}
+body{
+	margin:0;
+	font-size: 1.1rem;
+	font-family: Changa;
+	font-weight: 300;
+	color:#333333;
+ 
+}
+
+canvas {
+   position: fixed !important;
+}
+b{
+	font-weight: 700;
+}
+
+h1{
+	font-size: 3.1rem;
+	font-family: Chakra Petch;
+}
+h2{
+	font-size: 3.1rem;
+	font-family: Chakra Petch;
+	margin-bottom:-0.5%;
+}
+.absolute{
+	position: absolute;
+	width: 100%;
+}
+.center{
+	text-align: center;
+}
+
+.section{
+	width:55%;
+	height:50%;
+	margin: 25% auto;
+}
+.image{
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	top:300px;
+}
+
+
+.column{
+	float: left;
+ 	width: 30%;
+ 	margin-right:1%;
+
+}
+
+.creator{
+	position: fixed;
+	bottom:5%;
+	right:5%;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+font-family: 'Chakra Petch', monospace;
+font-family: 'Changa', monospace;
